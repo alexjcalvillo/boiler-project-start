@@ -8,17 +8,17 @@ import {
 
 import { connect } from 'react-redux';
 
-import Nav from '../Nav/Nav';
-import Footer from '../Footer/Footer';
+import Nav from '../sections/Nav/Nav';
+import Footer from '../sections/Footer/Footer';
 
-import ProtectedRoute from '../ProtectedRoute/ProtectedRoute';
+import ProtectedRoute from '../helpers/ProtectedRoute/ProtectedRoute';
 
-import AboutPage from '../AboutPage/AboutPage';
-import UserPage from '../UserPage/UserPage';
-import InfoPage from '../InfoPage/InfoPage';
-import LandingPage from '../LandingPage/LandingPage';
-import LoginPage from '../LoginPage/LoginPage';
-import RegisterPage from '../RegisterPage/RegisterPage';
+import AboutPage from '../views/AboutPage/AboutPage';
+import UserPage from '../views/UserPage/UserPage';
+import InfoPage from '../views/InfoPage/InfoPage';
+import LandingPage from '../views/LandingPage/LandingPage';
+import LoginPage from '../views/LoginPage/LoginPage';
+import RegisterPage from '../views/RegisterPage/RegisterPage';
 
 import './App.css';
 
